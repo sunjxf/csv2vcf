@@ -1,7 +1,6 @@
 @echo off
 setlocal EnableDelayedExpansion
- 
-
+chcp 65001
 del b.vcf
  
 set /a line=1
